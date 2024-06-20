@@ -9,6 +9,25 @@
       "expo-asset"
     ],
     "name": "Yellow-pouch",
-    "slug": "Yellow-pouch"
+    "slug": "Yellow-pouch",
+    "icon": "./asset/icon.png",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7139d306-ba5a-4859-bff9-429dbdf3d258"
+      }
+    },
+    "android": {
+      "package": "com.akash8130.Yellowpouch",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    }
   }
 }
